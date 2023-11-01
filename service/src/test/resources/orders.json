@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "customer": {
+      "id": 1,
+      "name": "AAA",
+      "surname": "AAAA",
+      "age": 50,
+      "email": "aaaa@gmail.com"
+    },
+    "product": {
+      "id": 1,
+      "name": "BIKEA",
+      "price": 15000.00,
+      "category": "A"
+    },
+    "quantity": 2,
+    "orderDate": "09-12-2035"
+  },
+  {
+    "id": 2,
+    "customer": {
+      "id": 2,
+      "name": "BBB",
+      "surname": "BBBB",
+      "age": 27,
+      "email": "bbbb@gmail.com"
+    },
+    "product": {
+      "id": 2,
+      "name": "BIKEB",
+      "price": 19000.00,
+      "category": "B"
+    },
+    "quantity": 4,
+    "orderDate": "27-07-2027"
+  },
+  {
+    "id": 3,
+    "customer": {
+      "id": 3,
+      "name": "CCC",
+      "surname": "CCCC",
+      "age": 29,
+      "email": "cccc@gmail.com"
+    },
+    "product": {
+      "id": 3,
+      "name": "BIKEC",
+      "price": 20000.00,
+      "category": "C"
+    },
+    "quantity": 7,
+    "orderDate": "27-08-2100"
+  },
+  {
+    "id": 4,
+    "customer": {
+      "id": 4,
+      "name": "DDD",
+      "surname": "DDDD",
+      "age": 36,
+      "email": "dddd@gmail.com"
+    },
+    "product": {
+      "id": 4,
+      "name": "BIKED",
+      "price": 21000.00,
+      "category": "A"
+    },
+    "quantity": 7,
+    "orderDate": "01-05-2024"
+  },
+  {
+    "id": 5,
+    "customer": {
+      "id": 5,
+      "name": "EEE",
+      "surname": "EEEE",
+      "age": 22,
+      "email": "eeee@gmail.com"
+    },
+    "product": {
+      "id": 5,
+      "name": "BIKEE",
+      "price": 22000.00,
+      "category": "B"
+    },
+    "quantity": 2,
+    "orderDate": "27-02-2031"
+  },
+  {
+    "id": 6,
+    "customer": {
+      "id": 6,
+      "name": "FFF",
+      "surname": "FFFF",
+      "age": 62,
+      "email": "ffff@gmail.com"
+    },
+    "product": {
+      "id": 6,
+      "name": "BIKEF",
+      "price": 96000.00,
+      "category": "C"
+    },
+    "quantity": 16,
+    "orderDate": "27-11-2033"
+  }
+]
