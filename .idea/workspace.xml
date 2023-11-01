@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f2b79a5-6833-4ab9-acec-a5bffb5cfd96" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/app/service/tokens/impl/TokensServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/app/service/tokens/impl/TokensServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "C:/Users/mikol/Desktop/Ready projects/orders2/orders-web-app/api",
+    "last_opened_file_path": "C:/Users/mikol/Desktop/Ready projects/orders2/orders-web-app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,6 +54,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mikol\Desktop\Ready projects\orders2\orders-web-app" />
       <recent name="C:\Users\mikol\Desktop\Ready projects\orders2\orders-web-app\api" />
       <recent name="C:\Users\mikol\Desktop\Ready projects\orders2\orders-web-app\persistence" />
     </key>
