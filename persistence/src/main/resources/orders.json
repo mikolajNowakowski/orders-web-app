@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "customer": {
+      "id": 1,
+      "name": "AAA",
+      "surname": "AAAA",
+      "age": 50,
+      "email": "aaaa@gmail.com"
+    },
+    "product": {
+      "id": 1,
+      "name": "BIKEA",
+      "price": 15000,
+      "category": "A"
+    },
+    "quantity": 2,
+    "orderDate": "17-07-2035"
+  },
+  {
+    "id": 2,
+    "customer": {
+      "id": 2,
+      "name": "BBB",
+      "surname": "BBBB",
+      "age": 27,
+      "email": "bbbb@gmail.com"
+    },
+    "product": {
+      "id": 2,
+      "name": "BIKEB",
+      "price": 19000,
+      "category": "B"
+    },
+    "quantity": 4,
+    "orderDate": "27-07-2035"
+  },
+  {
+    "id": 3,
+    "customer": {
+      "id": 3,
+      "name": "CCC",
+      "surname": "CCCC",
+      "age": 29,
+      "email": "cccc@gmail.com"
+    },
+    "product": {
+      "id": 3,
+      "name": "BIKEC",
+      "price": 20000,
+      "category": "C"
+    },
+    "quantity": 7,
+    "orderDate": "27-08-2035"
+  }
+]
