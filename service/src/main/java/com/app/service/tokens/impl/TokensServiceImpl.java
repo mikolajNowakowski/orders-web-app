@@ -31,9 +31,6 @@ public class TokensServiceImpl implements TokensService {
 
     @Value("${tokens.refresh.access_token_expiration_time_ms_property}")
     private String refreshTokenProperty;
-    // TODO o tym polu mówię
-    @Value("${tokens.prefix}")
-    private String tokensPrefix;
     private final UserRepository userRepository;
     private final SecretKey secretKey;
     private final PasswordEncoder passwordEncoder;

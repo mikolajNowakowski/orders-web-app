@@ -5,88 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f2b79a5-6833-4ab9-acec-a5bffb5cfd96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/converter/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/converter/OrderDataConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/factory/DataFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/factory/FromDbToOrderWithValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/factory/FromJsonToOrderWithValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/factory/FromTxtToOrderWithValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/loader/Loader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/loader/db/OrderDbDataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/loader/json/OrdersJsonDataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/loader/json/json_loader/FromJsonToObjectLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/loader/json/json_loader/exception/ObjectLoaderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/loader/txt/OrderTxtDataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/model/customer/CustomerData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/model/db/CustomerDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/model/db/Identifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/model/db/OrderDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/model/db/ProductDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/model/filename/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/model/filename/OrderDBSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/model/filename/OrderFilePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/model/order/OrderData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/model/product/ProductData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/model/product/category/CategoryData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/process/DataProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/process/OrderDataDbProcessImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/process/OrderDataJsonProcessImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/process/OrderDataProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/process/OrderDataTxtProcessImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/process/type/ProcessType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/validator/OrderDataValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/reader/validator/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/repository/generic/AbstractCrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/repository/generic/CrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/repository/orders/impl/CustomerDbRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/repository/orders/impl/ProductDbRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/repository/orders/transaction/OrderDataFromDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/repository/orders/transaction/impl/OrderDataFromDbImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/repository/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/repository/user/impl/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/data/writer/JsonWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/comparing_type/ComparingType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/customer/CustomerConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/dto/auth/AuthenticationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/dto/auth/AuthorizationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/dto/order/CustomerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/dto/order/OrderDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/dto/order/ProductDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/dto/service/SendEmailDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/dto/token/RefreshTokenDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/dto/token/TokensDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/dto/user/CreateUserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/dto/user/GetUserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/order/OrderConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/product/ProductComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/product/ProductConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/product/category/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/user/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/model/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/persistence_config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/app/transformer/LocalDateTypeAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/orders.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/orders.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/java/com/app/config/AppTestBeansConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/java/com/app/data/OrderDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/java/com/app/data/converter/ConvertTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/java/com/app/data/loader/db/DbLoadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/java/com/app/data/loader/json/JsonLoadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/java/com/app/data/loader/txt/TxtLoadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/java/com/app/data/process/ProcessTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/java/com/app/data/validator/ValidateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/resources/application_test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/resources/orders.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/resources/orders.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/test/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/app/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/app/service/tokens/impl/TokensServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/app/service/tokens/impl/TokensServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +15,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -123,7 +42,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "C:/Users/mikol/Desktop/Ready projects/orders2/orders-web-app/persistence",
+    "last_opened_file_path": "C:/Users/mikol/Desktop/Ready projects/orders2/orders-web-app/api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -135,6 +54,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mikol\Desktop\Ready projects\orders2\orders-web-app\api" />
       <recent name="C:\Users\mikol\Desktop\Ready projects\orders2\orders-web-app\persistence" />
     </key>
   </component>
