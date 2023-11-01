@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration>
+    <Appenders>
+        <Console name="MNConsole" target="SYSTEM_OUT">
+            <PatternLauout pattern ="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} method -> M% - %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="InfoLogger" level="info" additiviti="false">
+            <AppenderRef ref="MNConsole"/>
+        </Logger>
+        <Logger name="DebugLogger" level="trace" additiviti="false">
+            <AppenderRef ref="MNConsole"/>
+        </Logger>
+        <Root>
+            <AppenderRef ref = "MNConsole"/>
+        </Root>
+    </Loggers>
+</Configuration>
