@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f2b79a5-6833-4ab9-acec-a5bffb5cfd96" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,9 @@
         <option name="url" value="https://github.com/mikolajNowakowski/orders-web-app.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XaEq5NNriXeKXcQrZP5wocWiCe" />
   <component name="ProjectLevelVcsManager">
